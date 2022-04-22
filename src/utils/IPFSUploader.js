@@ -1,11 +1,12 @@
-import React ,{useState} from 'react';
-import {ImageUpload} from 'react-ipfs-uploader'
+import React, { useState } from 'react'
+import { ImageUpload } from 'react-ipfs-uploader'
 
-const IPFSUploader = ()=>{
-    const[imageUrl,setImageUrl]=useState('');
-    return(
-    <div>
-    <ImageUpload setUrl={setImageUrl} />
+const YourComponent = () => {
+    const [imageUrl, setImageUrl] = useState('')
+
+    return (
+        <div>
+            <ImageUpload setUrl={setImageUrl} />
             ImageUrl : <a
                 href={imageUrl}
                 target='_blank'
@@ -13,8 +14,6 @@ const IPFSUploader = ()=>{
             >
                 {imageUrl}
             </a>
-    </div>
+        </div>
     )
 }
-
-export default IPFSUploader;

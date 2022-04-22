@@ -1,11 +1,9 @@
 
 .main{
-    padding-top: 25vmin;
-    margin-left: 10vmin;
-    margin-right: 10vmin;   
+    padding-top: 25vmin;   
 }
 
-.title{
+.hometitle{
     font-size: 8vmin;
     font-weight: bold;
 }
@@ -18,10 +16,11 @@
     border-radius: 0.4rem;
     font-weight: 400;
     padding: 0 1.2rem;
+    margin-left: 2vmin;
     color: #ddd;
     border: none;
     box-shadow: 0 .5rem 1rem rgba(143, 142, 142, 0.15)!important;
-    background: #000000;
+    background: #254cdd;
     font-size: calc( 10px + 1vmin);
    }
    
@@ -31,7 +30,9 @@
    }
    
    .start:hover {
-    background: #2b2a2a;
+    background: #4c6eec;
    }
    
-   
+   .illus{
+       padding-top: 12vmin;
+   }
