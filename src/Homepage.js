@@ -4,12 +4,12 @@ import '../src/css/Homepage.css'
 function Homepage() {
     return ( 
         <div className='main'>
-            <h1>
+            <p className='title'>
                 Create,<br/>
                 Support and Browse NFTs<br/>
                 All at one place
-            </h1>
-            <a><button className='start' >Get Started</button></a>
+            </p>
+            <a href='/Upload' ><button className='start' >Get Started</button></a>
         </div>
      );
 }

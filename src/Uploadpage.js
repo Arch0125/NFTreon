@@ -4,8 +4,7 @@ import IPFSUploader from './utils/IPFSUploader';
 function Uploadpage() {
     return ( 
         <div>
-                    <h1>Upload your Artwork</h1>
-                    <IPFSUploader/>
+            <label>Show your Artwork to the world</label>
         </div>
      );
 }

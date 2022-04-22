@@ -1,8 +1,14 @@
 
 .main{
-    padding-top: 30vmin;
+    padding-top: 25vmin;
+    margin-left: 10vmin;
+    margin-right: 10vmin;   
 }
 
+.title{
+    font-size: 8vmin;
+    font-weight: bold;
+}
 
 .start {
     font-family: PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Helvetica Neue,Ubuntu,sans-serif;
@@ -10,12 +16,13 @@
     align-items: center;
     height: 48px;
     border-radius: 0.4rem;
-    font-weight: 600;
+    font-weight: 400;
     padding: 0 1.2rem;
     color: #ddd;
     border: none;
     box-shadow: 0 .5rem 1rem rgba(143, 142, 142, 0.15)!important;
     background: #000000;
+    font-size: calc( 10px + 1vmin);
    }
    
    .followers {
